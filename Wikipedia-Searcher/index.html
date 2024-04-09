@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Wikipedia Searcher</title>
+</head>
+
+<body class="bg-[#9DC5BB] items-center">
+    <nav>
+        <h1 class="bg-[#FBF5F3] p-5 font-semibold flex text-5xl justify-center w-full">Wikipedia Searcher</h1>
+    </nav>
+    <div class="container flex gap-4 justify-center items-center">
+
+        <form class="searchBox my-4 overflow-hidden">
+            <input class="input p-4 block appearance-none outline-none text-2xl" type="search" placeholder="Search">
+        </form>
+
+        <p class="resultsCount p-4 font-semibold my-4 bg-[#FBF5F3] text-lg">Results Count : 0</p>
+    </div>
+    <div class="results w-3/4 mx-auto justify-center"></div>
+
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
